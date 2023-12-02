@@ -10,7 +10,7 @@ const Main = () => {
             src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
         />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/10'>
-        <div>
+        <div className='max-w-[700px] m-auto w-full h-full flex flex-col justify-center lg:items-start items-center'>
             <h1>I'm Harrison Sparks</h1>
             <h2>I'm a
             <TypeAnimation
@@ -38,10 +38,10 @@ const Main = () => {
     />
     </h2>
     <div>
-        <FaTwitter />
-        <FaFacebookF />
-        <FaInstagram />
-        <FaLinkedinIn />
+        <FaTwitter className='cursor-pointer' size={20}/>
+        <FaFacebookF className='cursor-pointer' size={20}/>
+        <FaInstagram className='cursor-pointer' size={20}/>
+        <FaLinkedinIn className='cursor-pointer' size={20}/>
     </div>
         </div>
         </div>
