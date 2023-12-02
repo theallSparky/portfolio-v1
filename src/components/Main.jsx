@@ -11,25 +11,31 @@ const Main = () => {
         <div className='w-full h-screen absolute top-0 left-0 bg-white/10'>
         <div>
             <h1>I'm Harrison Sparks</h1>
-            <h2>I'm a </h2>
+            <h2>I'm a
             <TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed out once, initially
-        'We produce food for Mice',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'We produce food for Hamsters',
-        1000,
-        'We produce food for Guinea Pigs',
-        1000,
-        'We produce food for Chinchillas',
-        1000
+        'Developer',
+        2000, // delay
+        'Coder',
+        2000,
+        'Web Developer',
+        2000,
+        'Tech Enthusiast',
+        2000,
+        'AI Startup Architect and Developer',
+        2000,
+        'AI Developer',
+        2000,
+        'Habitual Reader',
+        2000,
+        'Habitual Learner'
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '2em', display: 'inline-block' }}
+      style={{ fontSize: '1em', paddingLeft: '5px', display: 'inline-block' }}
       repeat={Infinity}
     />
-
+    </h2>
         </div>
         </div>
     </div>
