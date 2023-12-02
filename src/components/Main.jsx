@@ -10,7 +10,7 @@ const Main = () => {
         <div className='w-full h-screen absolute top-0 left-0 bg-white/10'>
         <div>
             <h1>I'm Harrison Sparks</h1>
-            <h2></h2>
+            <h2>I'm a </h2>
         </div>
         </div>
     </div>
