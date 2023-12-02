@@ -1,5 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
+import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
 const Main = () => {
   return (
@@ -36,6 +37,12 @@ const Main = () => {
       repeat={Infinity}
     />
     </h2>
+    <div>
+        <FaTwitter />
+        <FaFacebookF />
+        <FaInstagram />
+        <FaLinkedinIn />
+    </div>
         </div>
         </div>
     </div>
