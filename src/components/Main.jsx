@@ -32,7 +32,7 @@ const Main = () => {
         'Habitual Learner'
       ]}
       wrapper="span"
-      speed={50}
+      speed={45}
       style={{ fontSize: '1em', paddingLeft: '5px', display: 'inline-block' }}
       repeat={Infinity}
     />
