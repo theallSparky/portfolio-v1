@@ -11,7 +11,6 @@ const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
         <h1 className='text-5xl font-bold text-center text-[#001b5e]'>Projects</h1>
-        <p>Desc.</p>
         <div className='grid sm:grid-cols-2 gap-12'>
             <a href="https://yumyumgood.vercel.app/" ><ProjectItem img={yumyumgoodImg} title='YumYumGood App' /></a>            
             <a href="https://sparkysmovies.vercel.app" ><ProjectItem img={sparkysmoviesImg} title='Movie App' /></a>
