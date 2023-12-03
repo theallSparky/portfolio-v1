@@ -1,8 +1,15 @@
 import React from 'react'
 
-const ProjectItem = () => {
+const ProjectItem = ({img, title}) => {
   return (
-    <div>ProjectItem</div>
+    <div className=''>
+        <img src={img} alt={title} />
+        <div>
+            <h3>
+                {title}
+            </h3>
+        </div>
+    </div>
   )
 }
 
