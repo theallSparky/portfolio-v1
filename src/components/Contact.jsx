@@ -21,11 +21,11 @@ const Contact = () => {
             </div>
             <div  className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2'>Subject</label>
-                <input type="text" name="subject" />
+                <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="subject" />
             </div>
-            <div>
+            <div  className='flex flex-col py-2'>
                 <label className='uppercase text-sm py-2'>Message</label>
-                <textarea rows="10" name="message"></textarea>
+                <textarea className='border-2 rounded-lg p-3 border-gray-300' rows="10" name="message"></textarea>
             </div>
         </form>
     </div>
