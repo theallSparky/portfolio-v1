@@ -8,8 +8,8 @@ const ProjectItem = ({img, title}) => {
             <h3 className='text-2xl font-bold text-white tracking-wider text-center'>
                 {title}
             </h3>
-            <a href='https://sparkysmovies.vercel.app/'>
-                <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'>Take me there...</p>
+            <a href='/'>
+                <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'>Tell me more...</p>
             </a>
         </div>
     </div>
