@@ -1,8 +1,9 @@
 import React from 'react'
+import updatedresumeImg from '../assets/updatedResume.png'
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div>updatedresumeImg</div>
   )
 }
 
