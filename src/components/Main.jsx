@@ -39,7 +39,7 @@ const Main = () => {
     </h2>
     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
         <a href="https://twitter.com/theallSparky_"><FaTwitter className='cursor-pointer hover:scale-110' size={45} /></a>
-        <a href="https://www.facebook.com/harry.sparks.3914"><FaFacebookF className='cursor-pointer hover:scale-110' size={45} href="" /></a>
+        <a href="https://www.facebook.com/harry.sparks.3914"><FaFacebookF className='cursor-pointer hover:scale-110' size={45} href="https://www.facebook.com/harry.sparks.3914" /></a>
         <a href="https://www.linkedin.com/in/harrisonsparks/" ><FaLinkedinIn className='cursor-pointer hover:scale-110' size={45} href="https://www.linkedin.com/in/harrisonsparks/" /></a>
     </div>
         </div>
