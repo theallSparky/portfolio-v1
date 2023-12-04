@@ -3,8 +3,7 @@ import updatedresumeImg from '../assets/updatedResume.png'
 
 const Resume = () => {
   return (
-    <div>updatedresumeImg</div>
-  )
+    updatedresumeImg  )
 }
 
 export default Resume
