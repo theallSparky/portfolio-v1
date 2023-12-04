@@ -16,7 +16,7 @@ const Projects = () => {
             <a href="https://sparkysmovies.vercel.app" ><ProjectItem img={sparkysmoviesImg} title='Movie App' /></a>
             <a href="https://sparkysstopwatch.vercel.app/"><ProjectItem img={StopwatchImg} title='Stopwatch App' /></a>
             <a href="https://sparkyscalculator.vercel.app/"><ProjectItem img={SparkyscalculatorImg} title='Calculator App' /></a>
-            <a href=""><ProjectItem img={PongImg} title='Pong App' /></a>
+            <a href="https://github.com/theallSparky/python_pong"><ProjectItem img={PongImg} title='Pong App' /></a>
             <a href="https://theallsparky.github.io/ninjahex/"><ProjectItem img={sparkysboxgameImg} title='sparkysboxgame App' /></a>
         </div>
     </div>
