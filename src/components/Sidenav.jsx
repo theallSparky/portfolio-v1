@@ -13,7 +13,7 @@ const Sidenav = () => {
 
   return (
     <div>
-        <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden'/>
+        <AiOutlineMenu size={40} onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden bg-gray-300/50 cursor-pointer rounded-lg'/>
         {
             nav ? (
                 <div 
