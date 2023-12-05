@@ -9,7 +9,7 @@ const ProjectItem = ({img, title}) => {
                 {title}
             </h3>
             <a href='/'>
-                <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'>Tell me more...</p>
+                <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg'>Github repo!</p>
             </a>
         </div>
     </div>
