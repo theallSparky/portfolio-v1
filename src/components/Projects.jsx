@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem'
 import sparkysmoviesImg from '../assets/sparkysmovies.png'
 import sparkysboxgameImg from '../assets/sparkysboxgame.png'
 import StopwatchImg from '../assets/Stopwatch.png'
-import SparkyscalculatorImg from '../assets/sparkyscalculator.png'
+import SparkyscalculatorImg from '../assets/Sparkyscalculator.png'
 import PongImg from '../assets/Pong.png'
 import yumyumgoodImg from '../assets/yum-yum-good.png'
 
