@@ -1,11 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import {
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -56,14 +51,10 @@ const Main = () => {
                 size={45}
               />
             </a>
-            <a
-              href="https://www.facebook.com/harry.sparks.3914"
-              target="_blank"
-            >
-              <FaFacebookF
+            <a href="https://github.com/theallSparky" target="_blank">
+              <FaGithub
                 className="cursor-pointer hover:scale-110 bg-white rounded-lg"
                 size={45}
-                href="https://www.facebook.com/harry.sparks.3914"
               />
             </a>
             <a
