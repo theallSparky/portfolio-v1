@@ -11,7 +11,7 @@ const Main = () => {
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/10">
         <div className="max-w-[700px] m-auto w-full h-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="sm:text-6xl text-5xl font-bold text-red-600 bg-black/50 py-3 mb-2 rounded-xl underline">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:6xl font-bold text-red-600 bg-black/50 py-3 mb-2 rounded-xl underline">
             I'm Harrison Sparks
           </h1>
           <h2 className="flex sm:text-3xl text-2xl p-1.5 text-green-500 bg-black/50 m-2 rounded-lg">
@@ -22,7 +22,7 @@ const Main = () => {
                 2000, // delay
                 "React Developer",
                 2000, // delay
-                "Coder",
+                "MERN Stack Coder",
                 2000,
                 "Web Developer",
                 2000,
