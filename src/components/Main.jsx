@@ -1,6 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 const Main = () => {
   return (
@@ -45,13 +46,13 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <a href="https://twitter.com/theallSparky_" target="_blank">
+            <a href="https://twitter.com/theallSparky_" target="blank">
               <FaTwitter
                 className="cursor-pointer hover:scale-110 bg-white rounded-lg"
                 size={45}
               />
             </a>
-            <a href="https://github.com/theallSparky" target="_blank">
+            <a href="https://github.com/theallSparky" target="blank">
               <FaGithub
                 className="cursor-pointer hover:scale-110 bg-white rounded-lg"
                 size={45}
@@ -59,12 +60,18 @@ const Main = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/harrisonsparks/"
-              target="_blank"
+              target="blank"
             >
               <FaLinkedinIn
                 className="cursor-pointer hover:scale-110 bg-white rounded-lg"
                 size={45}
                 href="https://www.linkedin.com/in/harrisonsparks/"
+              />
+            </a>
+            <a href="https://leetcode.com/allSparky/" target="blank">
+              <SiLeetcode
+                className="cursor-pointer hover:scale-110 bg-white rounded-lg"
+                size={45}
               />
             </a>
           </div>
