@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiX } from "react-icons/si";
 
 const Main = () => {
   return (
@@ -45,9 +45,9 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[200px] w-full">
+          <div className="flex justify-between pt-6 max-w-[300px] w-full">
             <a href="https://twitter.com/theallSparky_" target="blank">
-              <FaTwitter
+              <SiX
                 className="cursor-pointer hover:scale-110 bg-white rounded-lg"
                 size={45}
               />
