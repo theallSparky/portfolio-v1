@@ -1,6 +1,5 @@
-import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { SiLeetcode, SiX } from "react-icons/si";
 
 const Main = () => {
