@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="max-w-[1040px] m-auto md:px-20 p-4 py-16 border border-solid hover:bg-slate-300"
+      className="max-w-[1040px] m-auto md:px-20 p-4 py-16 pb-4 border border-solid border-red-900 border-4 rounded-xl hover:bg-slate-300"
     >
       <h1 className="py-4 text-4xl font-bold text-center text-[#0015be]">
         Contact
