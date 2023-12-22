@@ -19,6 +19,7 @@ const Contact = () => {
               className="border-2 rounded-lg p-3 flex border-gray-300"
               type="text"
               name="name"
+              placeholder="John Smith"
             />
           </div>
           <div className="flex flex-col">
@@ -27,6 +28,7 @@ const Contact = () => {
               className="border-2 rounded-lg p-3 flex border-gray-300"
               type="text"
               name="phone"
+              placeholder="123-456-7890"
             />
           </div>
         </div>
@@ -36,6 +38,7 @@ const Contact = () => {
             className="border-2 rounded-lg p-3 flex border-gray-300"
             type="email"
             name="email"
+            placeholder="email@test.test"
           />
         </div>
         <div className="flex flex-col py-2">
@@ -44,6 +47,7 @@ const Contact = () => {
             className="border-2 rounded-lg p-3 flex border-gray-300"
             type="text"
             name="subject"
+            placeholder="Reason for reaching out..."
           />
         </div>
         <div className="flex flex-col py-2">
@@ -52,6 +56,7 @@ const Contact = () => {
             className="border-2 rounded-lg p-3 border-gray-300"
             rows="10"
             name="message"
+            placeholder="Your thoughts..."
           ></textarea>
         </div>
         <button className="bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg">
