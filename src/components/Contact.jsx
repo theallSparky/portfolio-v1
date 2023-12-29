@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="max-w-[1040px] m-auto md:px-20 p-4 py-16 border border-solid mx-1 mb-1 border-red-900 md:border-2 rounded-3xl hover:bg-slate-300 ease-in duration-150"
+      className="max-w-[1040px] mx-auto p-4 py-16 border border-solid px-1 mb-1 border-red-900 md:border-2 rounded-3xl hover:bg-slate-300 ease-in duration-150 "
     >
       <h1 className="py-4 text-4xl font-bold text-center text-[#0015be]">
         Contact
