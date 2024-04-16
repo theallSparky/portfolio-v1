@@ -7,6 +7,7 @@ import PongImg from "../assets/Pong.png";
 import yumyumgoodImg from "../assets/yum-yum-good.png";
 import sparkysCounter from "../assets/sparkysCounter.png";
 import sparkysTicTicToe from "../assets/sparkysTicTicToe.png";
+import searchapp from "../assets/search-app.png";
 
 const Projects = () => {
   return (
@@ -45,6 +46,9 @@ const Projects = () => {
         </a>
         <a href="https://sparkys-tic-tac-toe.vercel.app/">
           <ProjectItem img={sparkysTicTicToe} title={"Tic-Tac-Toe App"} />
+        </a>
+        <a href="https://sparkys-search.vercel.app/">
+          <ProjectItem img={searchapp} title={"Tic-Tac-Toe App"} />
         </a>
       </div>
     </div>
