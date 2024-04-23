@@ -24,6 +24,12 @@ const Projects = () => {
         Click the image to visit the deployed application!
       </h2>
       <div className="grid sm:grid-cols-2 gap-12">
+        <a href="https://mern-jwt-redux.onrender.com/">
+          <ProjectItem img={mernreactredux} title={"Mern-React-Redux"} />
+        </a>
+        <a href="https://sparkystodolist.vercel.app/">
+          <ProjectItem img={taskit} title={"Task-It"} />
+        </a>
         <a href="https://yumyumgood.vercel.app/">
           <ProjectItem img={yumyumgoodImg} title="YumYumGood App" />
         </a>
@@ -50,12 +56,6 @@ const Projects = () => {
         </a>
         <a href="https://sparkys-search.vercel.app/">
           <ProjectItem img={searchapp} title={"Tic-Tac-Toe App"} />
-        </a>
-        <a href="https://sparkystodolist.vercel.app/">
-          <ProjectItem img={taskit} title={"Task-It"} />
-        </a>
-        <a href="https://mern-jwt-redux.onrender.com/">
-          <ProjectItem img={mernreactredux} title={"Mern-React-Redux"} />
         </a>
       </div>
     </div>
