@@ -8,7 +8,8 @@ import yumyumgoodImg from "../assets/yum-yum-good.png";
 import sparkysCounter from "../assets/sparkysCounter.png";
 import sparkysTicTicToe from "../assets/sparkysTicTicToe.png";
 import searchapp from "../assets/search-app.png";
-
+import taskit from "../assets/taskit.png";
+import mernreactredux from "../assets/mern-react-redux.png";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -49,6 +50,12 @@ const Projects = () => {
         </a>
         <a href="https://sparkys-search.vercel.app/">
           <ProjectItem img={searchapp} title={"Tic-Tac-Toe App"} />
+        </a>
+        <a href="https://sparkystodolist.vercel.app/">
+          <ProjectItem img={taskit} title={"Task-It"} />
+        </a>
+        <a href="https://mern-jwt-redux.onrender.com/">
+          <ProjectItem img={mernreactredux} title={"Mern-React-Redux"} />
         </a>
       </div>
     </div>
