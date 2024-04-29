@@ -12,7 +12,7 @@ const ProjectItem = ({ img, title }) => {
           target="_blank"
           rel="noreferrer"
         >
-          <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
+          <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg hover:scale-110 ease-in duration-150">
             Github repo!
           </p>
         </a>
