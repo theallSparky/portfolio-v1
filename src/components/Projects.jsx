@@ -10,6 +10,8 @@ import sparkysTicTicToe from "../assets/sparkysTicTicToe.png";
 import searchapp from "../assets/search-app.png";
 import taskit from "../assets/taskit.png";
 import mernreactredux from "../assets/mern-react-redux.png";
+import LocalTimeFalloutNV from "../assets/LocalTimeFalloutNV.png";
+
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -56,6 +58,12 @@ const Projects = () => {
         </a>
         <a href="https://sparkys-search.vercel.app/">
           <ProjectItem img={searchapp} title={"Tic-Tac-Toe App"} />
+        </a>
+        <a href="https://new-vegas-digi-clock.vercel.app/">
+          <ProjectItem
+            img={LocalTimeFalloutNV}
+            title={"Local Time Fallout:NV Theme"}
+          />
         </a>
       </div>
     </div>
